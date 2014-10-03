@@ -1,0 +1,45 @@
+extends layout
+
+block styles
+  link(rel="stylesheet", href="/stylesheets/style.css")
+
+block scripts
+
+block content
+  .container(ng-controller="BooksCtrl")
+    h1 Booktracker
+    p Tracking my reading progress.
+    p(ng-model="name") hello {{name}}
+
+    .row
+      //- .col-md-3
+      //-   h2 Books
+      //-   ul.list-unstyled
+      //-     each book in books
+      //-       li
+      //-         a(href=book.url)= book.title
+      //- .col-md-9
+      //-   h2 Table of Contents
+      //-   each book in books
+      //-     mixin list(contents, level)
+      //-       case level
+      //-         when 1
+      //-           each content in contents
+      //-             h3(class=content.completed ? "gray-lighter" : "")= content.text
+      //-             if content.children
+      //-               mixin list(content.children, level+1)
+      //-         when 2
+      //-           each content in contents
+      //-             h4(class=content.completed ? "gray-lighter" : "")= content.text
+      //-             if content.children
+      //-               mixin list(content.children, level+1)
+      //-         default
+      //-           ul.list-unstyled
+      //-             each content in contents
+      //-               li(class=content.completed ? "gray-lighter" : "")= content.text
+      //-               if content.children
+      //-                 mixin list(content.children, level+1)
+      //-     +list(book.contents, 1)
+
+
+
