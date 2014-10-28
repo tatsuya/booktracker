@@ -1,0 +1,13 @@
+.col-md-3
+  h2 Books
+  ul(ng-repeat="book in books")
+    li
+      a(ng-href="{{book.url}}") {{book.title}}
+.col-md-9
+  h2 Table of Contents
+  div(ng-repeat="book in books")
+    //- ng-include accepts an expression. If the source is a string constant,
+    //- make sure to wrap it in single quotes.
+    div(ng-repeat="child in book.contents", ng-include="'partials/toc-1'")
+    //- ul
+    //-   li(ng-repeat="child in book.contents", ng-include="'partials/toc-1'")

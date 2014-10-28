@@ -19,23 +19,23 @@
             },
             {
               "text": "Asynchronous and evented: the browser",
-              "completed": false
+              "completed": true
             },
             {
               "text": "Asynchronous and evented: the server",
-              "completed": false
+              "completed": true
             },
             {
               "text": "DIRTy applications",
-              "completed": false
+              "completed": true
             },
             {
               "text": "DIRTy by default",
-              "completed": false
+              "completed": true
             },
             {
               "text": "Summary",
-              "completed": false
+              "completed": true
             }
           ]
         },
@@ -45,11 +45,11 @@
           "children": [
             {
               "text": "Application overview",
-              "completed": false
+              "completed": true
             },
             {
               "text": "Application requirements and initial setup",
-              "completed": false
+              "completed": true
             },
             {
               "text": "Serving the application’s HTML, CSS, and client-side JavaScript",

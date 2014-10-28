@@ -1,0 +1,6 @@
+h3(ng-class="{'is-hidden': child.completed}") {{child.text}}
+div(ng-repeat="child in child.children", ng-include="'partials/toc-2'")
+
+//- {{child.text}}
+//- ul
+//-   li(ng-repeat="child in child.children", ng-include="'partials/toc-1'")
