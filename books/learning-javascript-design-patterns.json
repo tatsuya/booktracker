@@ -1,0 +1,263 @@
+{
+  "isbn": "9781449331818",
+  "title": "Learning JavaScript Design Patterns",
+  "url": "http://shop.oreilly.com/product/0636920025832.do",
+  "tags": [
+    "JavaScript"
+  ],
+  "toc": [
+    {
+      "text": "Chapter 1 Introduction"
+    },
+    {
+      "text": "Chapter 2 What Is a Pattern?",
+      "children": [
+        {
+          "text": "We Already Use Patterns Every Day"
+        }
+      ]
+    },
+    {
+      "text": "Chapter 3 \u201cPattern\u201d-ity Testing, Proto-Patterns, and the Rule of Three"
+    },
+    {
+      "text": "Chapter 4 The Structure of a Design Pattern"
+    },
+    {
+      "text": "Chapter 5 Writing Design Patterns"
+    },
+    {
+      "text": "Chapter 6 Anti-Patterns"
+    },
+    {
+      "text": "Chapter 7 Categories of Design Patterns",
+      "children": [
+        {
+          "text": "Creational Design Patterns"
+        },
+        {
+          "text": "Structural Design Patterns"
+        },
+        {
+          "text": "Behavioral Design Patterns"
+        }
+      ]
+    },
+    {
+      "text": "Chapter 8 Design Pattern Categorization",
+      "children": [
+        {
+          "text": "A Brief Note on Classes"
+        }
+      ]
+    },
+    {
+      "text": "Chapter 9 JavaScript Design Patterns",
+      "children": [
+        {
+          "text": "The Constructor Pattern"
+        },
+        {
+          "text": "The Module Pattern"
+        },
+        {
+          "text": "The Revealing Module Pattern"
+        },
+        {
+          "text": "The Singleton Pattern"
+        },
+        {
+          "text": "The Observer Pattern"
+        },
+        {
+          "text": "The Mediator Pattern"
+        },
+        {
+          "text": "The Prototype Pattern"
+        },
+        {
+          "text": "The Command Pattern"
+        },
+        {
+          "text": "The Facade Pattern"
+        },
+        {
+          "text": "The Factory Pattern"
+        },
+        {
+          "text": "The Mixin Pattern"
+        },
+        {
+          "text": "Subclassing"
+        },
+        {
+          "text": "Mixins"
+        },
+        {
+          "text": "The Decorator Pattern"
+        },
+        {
+          "text": "Pseudoclassical Decorators"
+        },
+        {
+          "text": "Decorators with jQuery"
+        },
+        {
+          "text": "Advantages and Disadvantages"
+        },
+        {
+          "text": "Flyweight"
+        }
+      ]
+    },
+    {
+      "text": "Chapter 10 JavaScript MV* Patterns",
+      "children": [
+        {
+          "text": "MVC"
+        },
+        {
+          "text": "MVC for JavaScript Developers"
+        },
+        {
+          "text": "What Does MVC Give Us?"
+        },
+        {
+          "text": "Smalltalk-80 MVC in JavaScript"
+        },
+        {
+          "text": "MVP"
+        },
+        {
+          "text": "MVVM"
+        },
+        {
+          "text": "Pros and Cons"
+        },
+        {
+          "text": "MVVM with Looser Data Bindings"
+        },
+        {
+          "text": "MVC Versus MVP Versus MVVM"
+        },
+        {
+          "text": "Backbone.js Versus KnockoutJS"
+        }
+      ]
+    },
+    {
+      "text": "Chapter 11 Modern Modular JavaScript Design Patterns",
+      "children": [
+        {
+          "text": "A Note on Script Loaders"
+        },
+        {
+          "text": "AMD"
+        },
+        {
+          "text": "CommonJS"
+        },
+        {
+          "text": "AMD and CommonJS: Competing, but Equally Valid Standards"
+        },
+        {
+          "text": "ES Harmony"
+        },
+        {
+          "text": "Conclusions"
+        }
+      ]
+    },
+    {
+      "text": "Chapter 12 Design Patterns in jQuery",
+      "children": [
+        {
+          "text": "The Composite Pattern"
+        },
+        {
+          "text": "The Adapter Pattern"
+        },
+        {
+          "text": "The Facade Pattern"
+        },
+        {
+          "text": "The Observer Pattern"
+        },
+        {
+          "text": "The Iterator Pattern"
+        },
+        {
+          "text": "Lazy Initialization"
+        },
+        {
+          "text": "The Proxy Pattern"
+        },
+        {
+          "text": "The Builder Pattern"
+        }
+      ]
+    },
+    {
+      "text": "Chapter 13 jQuery Plug-in Design Patterns",
+      "children": [
+        {
+          "text": "Patterns"
+        },
+        {
+          "text": "A Lightweight Start Pattern"
+        },
+        {
+          "text": "Complete Widget Factory Pattern"
+        },
+        {
+          "text": "Nested Namespacing Plug-in Pattern"
+        },
+        {
+          "text": "Custom Events Plug-in Pattern (with the Widget Factory)"
+        },
+        {
+          "text": "Prototypal Inheritance with the DOM-to-Object Bridge Pattern"
+        },
+        {
+          "text": "jQuery UI Widget Factory Bridge Pattern"
+        },
+        {
+          "text": "jQuery Mobile Widgets with the Widget Factory"
+        },
+        {
+          "text": "RequireJS and the jQuery UI Widget Factory"
+        },
+        {
+          "text": "Globally and Per-Call Overridable Options (Best Options Pattern)"
+        },
+        {
+          "text": "A Highly Configurable and Mutable Plug-in Pattern"
+        },
+        {
+          "text": "What Makes a Good Plug-in Beyond Patterns?"
+        },
+        {
+          "text": "Conclusions"
+        },
+        {
+          "text": "Namespacing Patterns"
+        },
+        {
+          "text": "Namespacing Fundamentals"
+        },
+        {
+          "text": "Advanced Namespacing Patterns"
+        }
+      ]
+    },
+    {
+      "text": "Chapter 14 Conclusions"
+    },
+    {
+      "text": "Appendix References"
+    },
+    {
+      "text": "Colophon"
+    }
+  ]
+}

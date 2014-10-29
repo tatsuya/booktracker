@@ -1,395 +1,308 @@
 {
+  "isbn": "9781617290572",
   "title": "Node.js in Action",
   "url": "http://www.manning.com/cantelon/",
   "tags": [
     "JavaScript"
   ],
-  "contents": [
+  "toc": [
     {
-      "text": "Part 1  Node fundamentals",
-      "completed": true,
       "children": [
         {
-          "text": "Chapter 1 Welcome to Node.js",
-          "completed": true,
           "children": [
             {
-              "text": "Built on JavaScript",
-              "completed": true
+              "text": "Built on JavaScript"
             },
             {
-              "text": "Asynchronous and evented: the browser",
-              "completed": true
+              "text": "Asynchronous and evented: the browser"
             },
             {
-              "text": "Asynchronous and evented: the server",
-              "completed": true
+              "text": "Asynchronous and evented: the server"
             },
             {
-              "text": "DIRTy applications",
-              "completed": true
+              "text": "DIRTy applications"
             },
             {
-              "text": "DIRTy by default",
-              "completed": true
+              "text": "DIRTy by default"
             },
             {
-              "text": "Summary",
-              "completed": true
+              "text": "Summary"
             }
-          ]
+          ],
+          "text": "Chapter 1 Welcome to Node.js"
         },
         {
-          "text": "Chapter 2 Building a multiroom chat application",
-          "completed": false,
           "children": [
             {
-              "text": "Application overview",
-              "completed": true
+              "text": "Application overview"
             },
             {
-              "text": "Application requirements and initial setup",
-              "completed": true
+              "text": "Application requirements and initial setup"
             },
             {
-              "text": "Serving the application’s HTML, CSS, and client-side JavaScript",
-              "completed": false
+              "text": "Serving the application\u2019s HTML, CSS, and client-side JavaScript"
             },
             {
-              "text": "Handling chat-related messaging using Socket.IO",
-              "completed": false
+              "text": "Handling chat-related messaging using Socket.IO"
             },
             {
-              "text": "Using client-side JavaScript for the application’s user interface",
-              "completed": false
+              "text": "Using client-side JavaScript for the application\u2019s user interface"
             },
             {
-              "text": "Summary",
-              "completed": false
+              "text": "Summary"
             }
-          ]
+          ],
+          "text": "Chapter 2 Building a multiroom chat application"
         },
         {
-          "text": "Chapter 3 Node programming fundamentals",
-          "completed": false,
           "children": [
             {
-              "text": "Organizing and reusing Node functionality",
-              "completed": false
+              "text": "Organizing and reusing Node functionality"
             },
             {
-              "text": "Asynchronous programming techniques",
-              "completed": false
+              "text": "Asynchronous programming techniques"
             },
             {
-              "text": "Sequencing asynchronous logic",
-              "completed": false
+              "text": "Sequencing asynchronous logic"
             },
             {
-              "text": "Summary",
-              "completed": false
+              "text": "Summary"
             },
             {
-              "text": "Chapter 4 Building Node web applications",
-              "completed": false
+              "text": "Chapter 4 Building Node web applications"
             }
-          ]
+          ],
+          "text": "Chapter 3 Node programming fundamentals"
         }
-      ]
+      ],
+      "text": "Part 1  Node fundamentals"
     },
     {
-      "text": "Part 2  Web application development with Node",
-      "completed": false,
       "children": [
         {
-          "text": "Chapter 4 Building Node web applications",
-          "completed": false,
           "children": [
             {
-              "text": "HTTP server fundamentals",
-              "completed": false
+              "text": "HTTP server fundamentals"
             },
             {
-              "text": "Building a RESTful web service",
-              "completed": false
+              "text": "Building a RESTful web service"
             },
             {
-              "text": "Serving static files",
-              "completed": false
+              "text": "Serving static files"
             },
             {
-              "text": "Accepting user input from forms",
-              "completed": false
+              "text": "Accepting user input from forms"
             },
             {
-              "text": "Securing your application with HTTPS",
-              "completed": false
+              "text": "Securing your application with HTTPS"
             },
             {
-              "text": "Summary",
-              "completed": false
+              "text": "Summary"
             }
-          ]
+          ],
+          "text": "Chapter 4 Building Node web applications"
         },
         {
-          "text": "Chapter 5 Storing Node application data",
-          "completed": false,
           "children": [
             {
-              "text": "Serverless data storage",
-              "completed": false
+              "text": "Serverless data storage"
             },
             {
-              "text": "Relational database management systems",
-              "completed": false
+              "text": "Relational database management systems"
             },
             {
-              "text": "NoSQL databases",
-              "completed": false
+              "text": "NoSQL databases"
             },
             {
-              "text": "Summary",
-              "completed": false
+              "text": "Summary"
             }
-          ]
+          ],
+          "text": "Chapter 5 Storing Node application data"
         },
         {
-          "text": "Chapter 6 Connect",
-          "completed": false,
           "children": [
             {
-              "text": "Setting up a Connect application",
-              "completed": false
+              "text": "Setting up a Connect application"
             },
             {
-              "text": "How Connect middleware works",
-              "completed": false
+              "text": "How Connect middleware works"
             },
             {
-              "text": "Why middleware ordering matters",
-              "completed": false
+              "text": "Why middleware ordering matters"
             },
             {
-              "text": "Mounting middleware and servers",
-              "completed": false
+              "text": "Mounting middleware and servers"
             },
             {
-              "text": "Creating configurable middleware",
-              "completed": false
+              "text": "Creating configurable middleware"
             },
             {
-              "text": "Using error-handling middleware",
-              "completed": false
+              "text": "Using error-handling middleware"
             },
             {
-              "text": "Summary",
-              "completed": false
+              "text": "Summary"
             }
-          ]
+          ],
+          "text": "Chapter 6 Connect"
         },
         {
-          "text": "Chapter 7 Connect’s built-in middleware",
-          "completed": false,
           "children": [
             {
-              "text": "Middleware for parsing cookies, request bodies, and query strings",
-              "completed": false
+              "text": "Middleware for parsing cookies, request bodies, and query strings"
             },
             {
-              "text": "Middleware that implements core web application functions",
-              "completed": false
+              "text": "Middleware that implements core web application functions"
             },
             {
-              "text": "Middleware that handles web application security",
-              "completed": false
+              "text": "Middleware that handles web application security"
             },
             {
-              "text": "Middleware for serving static files",
-              "completed": false
+              "text": "Middleware for serving static files"
             },
             {
-              "text": "Summary",
-              "completed": false
+              "text": "Summary"
             }
-          ]
+          ],
+          "text": "Chapter 7 Connect\u2019s built-in middleware"
         },
         {
-          "text": "Chapter 8 Express",
-          "completed": false,
           "children": [
             {
-              "text": "Generating the application skeleton",
-              "completed": false
+              "text": "Generating the application skeleton"
             },
             {
-              "text": "Configuring Express and your application",
-              "completed": false
+              "text": "Configuring Express and your application"
             },
             {
-              "text": "Rendering views",
-              "completed": false
+              "text": "Rendering views"
             },
             {
-              "text": "Handling forms and file uploads",
-              "completed": false
+              "text": "Handling forms and file uploads"
             },
             {
-              "text": "Handling resource downloads",
-              "completed": false
+              "text": "Handling resource downloads"
             },
             {
-              "text": "Summary",
-              "completed": false
+              "text": "Summary"
             }
-          ]
+          ],
+          "text": "Chapter 8 Express"
         },
         {
-          "text": "Chapter 9 Advanced Express",
-          "completed": false,
           "children": [
             {
-              "text": "Authenticating users",
-              "completed": false
+              "text": "Authenticating users"
             },
             {
-              "text": "Advanced routing techniques",
-              "completed": false
+              "text": "Advanced routing techniques"
             },
             {
-              "text": "Creating a public REST API",
-              "completed": false
+              "text": "Creating a public REST API"
             },
             {
-              "text": "Error handling",
-              "completed": false
+              "text": "Error handling"
             },
             {
-              "text": "Summary",
-              "completed": false
+              "text": "Summary"
             }
-          ]
+          ],
+          "text": "Chapter 9 Advanced Express"
         },
         {
-          "text": "Chapter 10 Testing Node applications",
-          "completed": false,
           "children": [
             {
-              "text": "Unit testing",
-              "completed": false
+              "text": "Unit testing"
             },
             {
-              "text": "Acceptance testing",
-              "completed": false
+              "text": "Acceptance testing"
             },
             {
-              "text": "Summary",
-              "completed": false
+              "text": "Summary"
             }
-          ]
+          ],
+          "text": "Chapter 10 Testing Node applications"
         },
         {
-          "text": "Chapter 11 Web application templating",
-          "completed": false,
           "children": [
             {
-              "text": "Using templating to keep code clean",
-              "completed": false
+              "text": "Using templating to keep code clean"
             },
             {
-              "text": "Templating with Embedded JavaScript",
-              "completed": false
+              "text": "Templating with Embedded JavaScript"
             },
             {
-              "text": "Using the Mustache templating language with Hogan",
-              "completed": false
+              "text": "Using the Mustache templating language with Hogan"
             },
             {
-              "text": "Templating with Jade",
-              "completed": false
+              "text": "Templating with Jade"
             },
             {
-              "text": "Summary",
-              "completed": false
+              "text": "Summary"
             }
-          ]
+          ],
+          "text": "Chapter 11 Web application templating"
         }
-      ]
+      ],
+      "text": "Part 2  Web application development with Node"
     },
     {
-      "text": "Part 3  Going further with Node",
-      "completed": false,
       "children": [
         {
-          "text": "Chapter 12 Deploying Node applications and maintaining uptime",
-          "completed": false,
           "children": [
             {
-              "text": "Hosting Node applications",
-              "completed": false
+              "text": "Hosting Node applications"
             },
             {
-              "text": "Deployment basics",
-              "completed": false
+              "text": "Deployment basics"
             },
             {
-              "text": "Maximizing uptime and performance",
-              "completed": false
+              "text": "Maximizing uptime and performance"
             },
             {
-              "text": "Summary",
-              "completed": false
+              "text": "Summary"
             }
-          ]
+          ],
+          "text": "Chapter 12 Deploying Node applications and maintaining uptime"
         },
         {
-          "text": "Chapter 13 Beyond web servers",
-          "completed": false,
           "children": [
             {
-              "text": "Socket.IO",
-              "completed": false
+              "text": "Socket.IO"
             },
             {
-              "text": "TCP/IP networking in depth",
-              "completed": false
+              "text": "TCP/IP networking in depth"
             },
             {
-              "text": "Tools for interacting with the operating system",
-              "completed": false
+              "text": "Tools for interacting with the operating system"
             },
             {
-              "text": "Developing command-line tools",
-              "completed": false
+              "text": "Developing command-line tools"
             },
             {
-              "text": "Summary",
-              "completed": false
+              "text": "Summary"
             }
-          ]
+          ],
+          "text": "Chapter 13 Beyond web servers"
         },
         {
-          "text": "Chapter 14 The Node ecosystem",
-          "completed": false,
           "children": [
             {
-              "text": "Online resources for Node developers",
-              "completed": false
+              "text": "Online resources for Node developers"
             },
             {
-              "text": "GitHub",
-              "completed": false
+              "text": "GitHub"
             },
             {
-              "text": "Contributing to the npm repository",
-              "completed": false
+              "text": "Contributing to the npm repository"
             },
             {
-              "text": "Summary",
-              "completed": false
+              "text": "Summary"
             }
-          ]
+          ],
+          "text": "Chapter 14 The Node ecosystem"
         }
-      ]
+      ],
+      "text": "Part 3  Going further with Node"
     }
   ]
 }

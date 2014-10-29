@@ -8,12 +8,12 @@ config(function($routeProvider, $locationProvider) {
   $routeProvider.
     when('/books', {
       templateUrl: 'partials/books',
-      controller: 'BooksCtrl'
+      controller: 'BookListCtrl'
     }).
     when('/books/:id', {
-      templateUrl: 'partials/books'
-      controller: ''
-    })
+      templateUrl: 'partials/book',
+      controller: 'BookDetailCtrl'
+    }).
     otherwise({
       redirectTo: '/books'
     });
