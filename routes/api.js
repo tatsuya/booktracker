@@ -38,20 +38,20 @@ function readJSONFiles(dir) {
 }
 
 /**
- * Initialize completed states in a tree recursively.
+ * Initialize completed state of chapters/sections recursively.
  *
- * @param  {Array} tree Array of chapters and sections
+ * @param  {Array} parents Array of chapters and sections
  * @return {Array}
  */
-function initCompletedState(tree) {
-  for (var i = 0; i < tree.length; i++) {
-    var obj = tree[i];
-    obj.completed = false;
-    if (obj.children) {
-      obj.children = initCompletedState(obj.children);
+function initCompletedState(parents) {
+  for (var i = 0; i < parents.length; i++) {
+    var parent = parents[i];
+    parent.completed = false;
+    if (parent.children) {
+      parent.children = initCompletedState(parent.children);
     }
   }
-  return tree;
+  return parents;
 }
 
 function findBookById(id) {
